@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Zubin Kang" => "kangzubin@gmail.com" }
 
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "9.3"
   s.requires_arc = true
 
   s.source       = { :git => "https://github.com/kangzubin/XMNetworking.git", :tag => s.version, :submodules => true }
