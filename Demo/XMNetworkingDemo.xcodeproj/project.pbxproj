@@ -26,9 +26,6 @@
 		4BF800D21DFED15C00999C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF800D11DFED15C00999C54 /* AppDelegate.m */; };
 		4BF800DA1DFED15C00999C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF800D91DFED15C00999C54 /* Assets.xcassets */; };
 		4BF800DD1DFED15C00999C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF800DB1DFED15C00999C54 /* LaunchScreen.storyboard */; };
-		4BF801101DFED40000999C54 /* XMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF8010F1DFED40000999C54 /* XMRequest.m */; };
-		4BF801131DFED44300999C54 /* XMCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF801121DFED44300999C54 /* XMCenter.m */; };
-		4BF801161DFED49500999C54 /* XMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF801151DFED49500999C54 /* XMEngine.m */; };
 		897281C4209C926D001799A9 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 897281C1209C926D001799A9 /* YYFPSLabel.m */; };
 		897281C5209C926D001799A9 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 897281C3209C926D001799A9 /* YYWeakProxy.m */; };
 		9017F63AE450E7282A414025 /* libPods-XMNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDAEF2FD9EBFD973FD5002C /* libPods-XMNetworkingDemo.a */; };
@@ -75,14 +72,6 @@
 		4BF800DE1DFED15C00999C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF800E31DFED15C00999C54 /* XMNetworkingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMNetworkingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF800E91DFED15C00999C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BF8010C1DFED35800999C54 /* XMNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMNetworking.h; sourceTree = "<group>"; };
-		4BF8010D1DFED3A800999C54 /* XMConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMConst.h; sourceTree = "<group>"; };
-		4BF8010E1DFED40000999C54 /* XMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMRequest.h; sourceTree = "<group>"; };
-		4BF8010F1DFED40000999C54 /* XMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMRequest.m; sourceTree = "<group>"; };
-		4BF801111DFED44300999C54 /* XMCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCenter.h; sourceTree = "<group>"; };
-		4BF801121DFED44300999C54 /* XMCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCenter.m; sourceTree = "<group>"; };
-		4BF801141DFED49500999C54 /* XMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMEngine.h; sourceTree = "<group>"; };
-		4BF801151DFED49500999C54 /* XMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMEngine.m; sourceTree = "<group>"; };
 		4F2F058D11AEAA8CCBA69787 /* Pods-XMNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMNetworkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMNetworkingDemo/Pods-XMNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6DDAEF2FD9EBFD973FD5002C /* libPods-XMNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897281C0209C926D001799A9 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
@@ -123,7 +112,6 @@
 		4BF800C11DFED15C00999C54 = {
 			isa = PBXGroup;
 			children = (
-				4BF800F21DFED2F200999C54 /* XMNetworking */,
 				4BF800CC1DFED15C00999C54 /* XMNetworkingDemo */,
 				4BF800E61DFED15C00999C54 /* XMNetworkingDemoTests */,
 				4BF800CB1DFED15C00999C54 /* Products */,
@@ -192,22 +180,6 @@
 			path = XMNetworkingDemoTests;
 			sourceTree = "<group>";
 		};
-		4BF800F21DFED2F200999C54 /* XMNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				4BF8010C1DFED35800999C54 /* XMNetworking.h */,
-				4BF8010D1DFED3A800999C54 /* XMConst.h */,
-				4BF8010E1DFED40000999C54 /* XMRequest.h */,
-				4BF8010F1DFED40000999C54 /* XMRequest.m */,
-				4BF801111DFED44300999C54 /* XMCenter.h */,
-				4BF801121DFED44300999C54 /* XMCenter.m */,
-				4BF801141DFED49500999C54 /* XMEngine.h */,
-				4BF801151DFED49500999C54 /* XMEngine.m */,
-			);
-			name = XMNetworking;
-			path = ../XMNetworking;
-			sourceTree = "<group>";
-		};
 		897281BF209C926D001799A9 /* YYFPSLabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,7 +244,7 @@
 		4BF800C21DFED15C00999C54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = XMNetworking;
 				TargetAttributes = {
 					4BF800C91DFED15C00999C54 = {
@@ -292,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -354,8 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF801101DFED40000999C54 /* XMRequest.m in Sources */,
-				4BF801131DFED44300999C54 /* XMCenter.m in Sources */,
 				4B16DFB0208C94E500BF7AC5 /* SearchViewController.m in Sources */,
 				897281C4209C926D001799A9 /* YYFPSLabel.m in Sources */,
 				4B16DFAA208B7FFB00BF7AC5 /* TipSetTableViewCell.m in Sources */,
@@ -364,7 +335,6 @@
 				4BD09BC62087A789003591F4 /* MainViewController.m in Sources */,
 				897281C5209C926D001799A9 /* YYWeakProxy.m in Sources */,
 				4BF800CF1DFED15C00999C54 /* main.m in Sources */,
-				4BF801161DFED49500999C54 /* XMEngine.m in Sources */,
 				4B16DFA7208B7E4B00BF7AC5 /* NetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -465,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -520,7 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAE2CQZL3Y;
 				INFOPLIST_FILE = XMNetworkingDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kangzubin.XMNetworkingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,7 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAE2CQZL3Y;
 				INFOPLIST_FILE = XMNetworkingDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kangzubin.XMNetworkingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
